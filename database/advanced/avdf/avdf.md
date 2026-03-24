@@ -250,7 +250,7 @@ In this lab, you will do the following:
 
     **Note:** The graph gives you a clear picture of drifts on all the targets where the baseline has been set
 
-7.	Click on any of the evaluations, like **Pass** or **High Risk**, which will take you to the detailed drift report
+7. Click on any of the evaluations, like **Pass** or **High Risk**, which will take you to the detailed drift report
 
     ![AVDF](./images/avdf-505.png "AVDF - Drift Chart")
 
