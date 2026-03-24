@@ -1520,8 +1520,6 @@ The first thing we need to do is to set up the database to be ready for Golden G
 
     ![AVDF](./images/avdf-027.png "Check connectivity to the database")
     
-**Configuring a GoldenGate Extract**
-
 4. In the DBSecLab VM, the Oracle GoldenGate software has been already installed and pre-configured, but ensure the Golden Gate Administration Service is up and running
 
     ````
@@ -1684,8 +1682,6 @@ The first thing we need to do is to set up the database to be ready for Golden G
     ![AVDF](./images/avdf-041.png "Status of the new Audit Trail")
 
     **Note:** Attention, don't go to next step while the both **Audit Trail** and **Unified Audit Trail** are not started!
-
-**Generate Changes and View the Audit Vault Reports**
 
 22. Go back to your terminal session and generate data and object changes with 2 different privileged users **on pdb1**
 
