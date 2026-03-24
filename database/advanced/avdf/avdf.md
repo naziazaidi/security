@@ -1519,10 +1519,10 @@ The first thing we need to do is to set up the database to be ready for Golden G
     ````
 
     ![AVDF](./images/avdf-027.png "Check connectivity to the database")
-
+    
 **Configuring a GoldenGate Extract**
 
-4. In the DBSecLab VM, the Oracle GoldenGate software has been already installed and pre-configured, but ensure the Golden Gate Administration Service is up and running
+1. In the DBSecLab VM, the Oracle GoldenGate software has been already installed and pre-configured, but ensure the Golden Gate Administration Service is up and running
 
     ````
     <copy>./avs_start_ogg.sh</copy>
@@ -1530,7 +1530,7 @@ The first thing we need to do is to set up the database to be ready for Golden G
 
     ![AVDF](./images/avdf-028.png "Start the Golden Gate Administration Service")
 
-5. Login to your GoldenGate Web Console
+2. Login to your GoldenGate Web Console
 
     - Open a web browser window to *`http://dbsec-lab:50002`*
 
@@ -1548,15 +1548,15 @@ The first thing we need to do is to set up the database to be ready for Golden G
 
         ![AVDF](./images/avdf-029.png "Golden Gate - Login")
 
-6. In the top left corner, open the **Burger menu** and select **Configuration**
+3. In the top left corner, open the **Burger menu** and select **Configuration**
 
     ![AVDF](./images/avdf-030a.png "Select Configuration")
 
-7. Click the [**+**] symbol next to **Credentials**
+4. Click the [**+**] symbol next to **Credentials**
 
     ![AVDF](./images/avdf-030b.png "Set credentials")
 
-8. Next, create a new Credential with the following values
+5. Next, create a new Credential with the following values
 
     - Credential Domain: *`cdb1`*
     - Credential Aalias: *`cdb1`*
