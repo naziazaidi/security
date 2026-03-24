@@ -1522,7 +1522,7 @@ The first thing we need to do is to set up the database to be ready for Golden G
     
 **Configuring a GoldenGate Extract**
 
-1. In the DBSecLab VM, the Oracle GoldenGate software has been already installed and pre-configured, but ensure the Golden Gate Administration Service is up and running
+4. In the DBSecLab VM, the Oracle GoldenGate software has been already installed and pre-configured, but ensure the Golden Gate Administration Service is up and running
 
     ````
     <copy>./avs_start_ogg.sh</copy>
@@ -1530,7 +1530,7 @@ The first thing we need to do is to set up the database to be ready for Golden G
 
     ![AVDF](./images/avdf-028.png "Start the Golden Gate Administration Service")
 
-2. Login to your GoldenGate Web Console
+5. Login to your GoldenGate Web Console
 
     - Open a web browser window to *`http://dbsec-lab:50002`*
 
@@ -1548,15 +1548,15 @@ The first thing we need to do is to set up the database to be ready for Golden G
 
         ![AVDF](./images/avdf-029.png "Golden Gate - Login")
 
-3. In the top left corner, open the **Burger menu** and select **Configuration**
+6. In the top left corner, open the **Burger menu** and select **Configuration**
 
     ![AVDF](./images/avdf-030a.png "Select Configuration")
 
-4. Click the [**+**] symbol next to **Credentials**
+7. Click the [**+**] symbol next to **Credentials**
 
     ![AVDF](./images/avdf-030b.png "Set credentials")
 
-5. Next, create a new Credential with the following values
+8. Next, create a new Credential with the following values
 
     - Credential Domain: *`cdb1`*
     - Credential Aalias: *`cdb1`*
@@ -1642,8 +1642,6 @@ The first thing we need to do is to set up the database to be ready for Golden G
     - Confirm your Extract now shows **RUNNING**
 
         ![AVDF](./images/avdf-038.png "Start a new GoldenGate Extract")
-
-**Configure a new Audit Trail**
 
 13. Go back to Audit Vault Web Console as *`AVADMIN`*"
 
